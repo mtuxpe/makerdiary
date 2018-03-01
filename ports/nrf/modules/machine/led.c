@@ -53,6 +53,10 @@ STATIC const pyb_led_obj_t pyb_led_obj[] = {
 #elif (MICROPY_HW_LED_COUNT == 2)
     {{&pyb_led_type}, PYB_LED1, MICROPY_HW_LED1},
     {{&pyb_led_type}, PYB_LED2, MICROPY_HW_LED2},
+#elif (MICROPY_HW_LED_COUNT == 3)
+    {{&pyb_led_type}, PYB_LED1, MICROPY_HW_LED1},
+    {{&pyb_led_type}, PYB_LED2, MICROPY_HW_LED2},
+    {{&pyb_led_type}, PYB_LED3, MICROPY_HW_LED3},
 #else
     {{&pyb_led_type}, PYB_LED1, MICROPY_HW_LED1},
     {{&pyb_led_type}, PYB_LED2, MICROPY_HW_LED2},
