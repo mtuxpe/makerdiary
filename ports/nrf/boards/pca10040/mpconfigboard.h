@@ -66,7 +66,7 @@
 #define MICROPY_HW_UART1_TX         (pin_A6)
 #define MICROPY_HW_UART1_CTS        (pin_A7)
 #define MICROPY_HW_UART1_RTS        (pin_A5)
-#define MICROPY_HW_UART1_HWFC       (1)
+#define MICROPY_HW_UART1_HWFC       (0)
 
 // SPI0 config
 #define MICROPY_HW_SPI0_NAME        "SPI0"
